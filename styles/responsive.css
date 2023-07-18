@@ -9,6 +9,15 @@
     .nav-links li, button {
         margin-top: 18px;
     }
+    .banner-container {
+        flex-direction: column-reverse;
+        width: 85%;
+        margin: auto;
+    }
+    .banner-img img {
+        width: 100%;
+        
+    }
 }
 
 
@@ -17,13 +26,13 @@
 
 @media screen and (min-width:426px) and (max-width:886px) {
     nav {
-        flex-direction: column;
+        width: 100%;
+        
     }
-    .nav-links {
-        flex-direction: column;
-        margin-top: 15px;
+    .logo {
+        margin-left: 10px;
     }
-    .nav-links li, button {
-        margin-top: 18px;
+    .banner-container {
+        flex-direction: column-reverse;
     }
 }
