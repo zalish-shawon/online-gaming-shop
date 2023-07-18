@@ -121,6 +121,7 @@ nav {
     justify-content: space-between;
     gap: 45px;
 }
+
 /* Online Games Funny Videos */
 
 .videos-container {
@@ -146,7 +147,8 @@ nav {
 .funny {
     color: #AB53DE;
 }
-/* videos thumbnail hovering added */ 
+
+/* videos thumbnail hovering added */
 /* bonus section  */
 .thumbnail-container {
     width: 85%;
@@ -162,7 +164,7 @@ nav {
     width: 200px;
     height: 200px;
     display: block;
-    
+
 }
 
 .thumbnail p {
@@ -170,8 +172,9 @@ nav {
     color: #534C64;
     font-size: 0.9rem;
     font-weight: 500;
-   
+
 }
+
 .thumbnail {
     position: relative;
     display: inline-block;
@@ -189,26 +192,76 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .overlay i {
+}
+
+.overlay i {
     color: #FFF;
     font-size: 2.5rem;
-    
-  }
-  
-  .thumbnail:hover .overlay {
+
+}
+
+.thumbnail:hover .overlay {
     opacity: 1;
     cursor: pointer;
-  }
-  .watch-now {
+}
+
+.watch-now {
     color: red;
     font-size: 12px;
     margin-top: 10px;
-  }
-  .button {
+}
+
+.button {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
+}
+
+.downloads-container {
+    margin-top: 75px;
+    margin-bottom: 65px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.downloads-img {
+    position: relative;
+}
+
+.main-img {
+    width: 300px;
+    height: 300px;
+}
+
+.sub-img {
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    right: 211px;
+    bottom: -35px;
+}
+
+.play {
+    color: #FF42A5;
+}
+
+.downloads-texts h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    width: 85%;
+
+}
+
+.downloads-texts p {
+    color: #534C64;
+    width: 70%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 12px;
+    
+}

@@ -21,6 +21,24 @@
     .thumbnail-container {
         flex-direction: column;
     }
+    .downloads-container {
+        flex-direction: column;
+    }
+    .downloads-texts h1 {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    .downloads-texts p {
+        width: 100%;
+    }
+    .downloads-texts {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .sub-img {
+        height: 120px;
+        width: 120px;
+    }
 }
 
 
@@ -40,5 +58,11 @@
     }
     .thumbnail-container {
         flex-direction: column;
+    }
+    .downloads-container {
+        flex-direction: column;
+    }
+    .downloads-img {
+       margin-top: 25px;
     }
 }
