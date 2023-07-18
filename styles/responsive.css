@@ -18,6 +18,9 @@
         width: 100%;
         
     }
+    .thumbnail-container {
+        flex-direction: column;
+    }
 }
 
 
@@ -34,5 +37,8 @@
     }
     .banner-container {
         flex-direction: column-reverse;
+    }
+    .thumbnail-container {
+        flex-direction: column;
     }
 }
