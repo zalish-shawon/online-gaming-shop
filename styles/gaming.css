@@ -209,8 +209,8 @@ nav {
 }
 
 .watch-now {
-    color: red;
-    font-size: 12px;
+    color: #FF42A5;
+    font-size: 1rem;
     margin-top: 10px;
 }
 
@@ -274,11 +274,13 @@ nav {
     padding-left: 5px;
     display: flex;
     align-items: center;
-    gap: 15px
+    gap: 15px;
+    border: 2px solid transparent;
 }
 .category:hover {
     border: 2px solid red;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .category img {
@@ -333,6 +335,14 @@ nav {
     margin-top: 25px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-terms {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    list-style: none;
     justify-content: center;
     gap: 15px;
 }
