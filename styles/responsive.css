@@ -39,6 +39,13 @@
         height: 120px;
         width: 120px;
     }
+    .games-category-container {
+       
+        width: 100%;
+    }
+    .test {
+        margin-left: 0;
+    }
 }
 
 
