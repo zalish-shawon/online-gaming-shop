@@ -95,7 +95,7 @@ nav {
 }
 
 .btn-go {
-    margin-left: 15px;
+    margin-left: 8px;
     margin-top: 25px;
     border-radius: 15px;
     padding: 15px 19px;
@@ -201,6 +201,7 @@ nav {
 .thumbnail:hover .overlay {
     opacity: 1;
     cursor: pointer;
+    border: 2px solid #F948B2;
 }
 
 .watch-now {
@@ -271,6 +272,10 @@ nav {
     align-items: center;
     gap: 15px
 }
+.category:hover {
+    border: 2px solid red;
+    border-radius: 10px;
+}
 
 .category img {
     height: 30px;
@@ -281,6 +286,7 @@ nav {
     width: 74%;
     margin: 0 auto;
     margin-top: 110px;
+    margin-bottom: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,4 +297,59 @@ nav {
 
 .test {
     margin-left: 40px;
+}
+
+/* Footer section  */
+.footer-container {
+    background: #0B0223;
+    color: #FFF;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.footer-logo h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    
+}
+
+.footer-logo img {
+    width: 60px;
+    height: 30px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.footer-links {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-links p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    
+}
+.footer-icons {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-size: 1.5rem;
+    
+}
+.footer-youtube {
+    color: #FFF;
+}
+.copyright {
+    margin-top: 20px;
+    font-size: 0.7rem;
 }
