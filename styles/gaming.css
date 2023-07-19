@@ -271,8 +271,10 @@ nav {
 
 /* games category  */
 .category {
+    background-color: #FFF;
     padding-left: 5px;
     display: flex;
+    border-radius: 10px;
     align-items: center;
     gap: 15px;
     border: 2px solid transparent;
@@ -289,7 +291,7 @@ nav {
 }
 
 .games-category-container {
-    width: 74%;
+    width: 64%;
     margin: 0 auto;
     margin-top: 110px;
     margin-bottom: 35px;
@@ -301,9 +303,7 @@ nav {
 
 }
 
-/* .test {
-    margin-left: 40px;
-} */
+
 
 /* Footer section  */
 .footer-container {
