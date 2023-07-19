@@ -16,7 +16,7 @@
     }
     .banner-img img {
         width: 100%;
-        
+        height: 350px;
     }
     .thumbnail-container {
         flex-direction: column;
@@ -47,10 +47,12 @@
         margin-left: 0;
     }
     .footer-links {
+       flex-wrap: wrap;
+    }
+    .footer-icons {
         display: grid;
-        grid-template-columns: 20% 20% 20%;
-        gap:0
-    } 
+        grid-template-columns: repeat(3,0fr);
+    }
 }
 
 

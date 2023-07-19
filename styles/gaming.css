@@ -295,9 +295,9 @@ nav {
 
 }
 
-.test {
+/* .test {
     margin-left: 40px;
-}
+} */
 
 /* Footer section  */
 .footer-container {
@@ -331,6 +331,9 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 15px;
+}
+.footer-links li {
+    list-style: none;
 }
 .footer-links p {
     font-size: 0.8rem;
